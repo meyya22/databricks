@@ -1,0 +1,21 @@
+(1) Which Databricks SQL data type can you use to represent a time value?
+
+(2) What is the result of the following expression?
+SELECT COALESCE(NULL,1,NULL,2,NULL)
+
+(3) You want to create a new field on a stock ticker table so that you can track intraday changes in price. The change is in US dollars and ranges from -999.99 to 999.99. How can you add this new column price to the ticker table?
+
+(4) What is a benefit of the Databricks Lakehouse architecture?
+
+(5) What is used in Databricks to guarantee transactional commits for SQL queries?
+
+
+========================================
+Answers:
+========================================
+
+(1) Timestamp
+(2) Ans : 1
+(3) ALTER TABLE ticker ADD columns (price DECIMAL(5,2))
+(4) It enables artificial intelligence (AI) and business intelligence (BI) on data warehouses and stores across systems.
+(5) Databricks I/O (DBIO)
